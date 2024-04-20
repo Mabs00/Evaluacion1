@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<body style="background-color: #FFEFD3;">
+<style>
+    .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspirArte - Página de Inicio</title>
+    <style>
+        body
+       {
+            font-family: Roboto-BoldItalic;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #90C3C8;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1F5673;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>InspirArte</h1>
+    <p>¡Bienvenidos a nuestro hogar!</p>
+</header>
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="galeria.html">Galería</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+<div class="container">
+</div>
+</body>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin: 0px;
+            cursor: pointer;
+        }
+
+        #overlay img {
+            max-width: 80%;
+            max-height: 80%;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+<div class="gallery">
+    <style>
+        .flip-card {
+            display: inline-block;
+            margin: 10px;
+        }
+
+            .flip-card-inner {
+                width: 500px;
+                height: 300px;
+                text-align: center;
+                transition: transform 0.8s;
+                transform-style: preserve-3d;
+            }
+
+            .flip-card:hover .flip-card-inner {
+                transform: rotateY(180deg);
+            }
+
+            .flip-card-front, .flip-card-back {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+            }
+
+            .flip-card-front {
+                background-color: #bbb;
+                color: black;
+            }
+
+            .flip-card-back {
+                background-color: #F0DFAD;
+                color: black;
+                transform: rotateY(180deg);
+                justify-content: space-between;
+            }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 500px;
+        }
+
+    </style>
+    </head>
+    <body>
+    <ul class="stacking context.">
+        <div class="image-container">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="imagen1.jpg" alt="Imagen Frontal">
+                    </div>
+                    <div class="flip-card-back">
+                        <h2>Revelación Celestial</h2>
+                        <h3>Autor: Luciano Celestino</h3>
+                        <p>Esta obra de arte captura la esencia de la introspección y el descubrimiento personal. Presenta un retrato estilizado que fusiona elementos surrealistas con una paleta de colores vibrante, invitando al espectador a explorar los profundos niveles de conciencia y subconsciencia representados por las nubes y las líneas ondulantes que emergen del sujeto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="imagen2.jpg" alt="Imagen Frontal">
+                    </div>
+                    <div class="flip-card-back">
+                        <h2>Encuentro Cósmico en el Desierto</h2>
+                        <h3>Autora: Alejandra Olivares</h3>
+                        <p>En un paisaje desértico de otro mundo, bajo un cielo que transita entre el crepúsculo y la noche estrellada, un solitario viajero se encuentra con una manifestación surrealista de formas orgánicas flotantes que parecen danzar en el aire. Estas formas, reminiscentes de criaturas marinas bioluminiscentes, irradian una luz rosada y crean un portal hacia el cosmos, sugiriendo una conexión entre lo terrenal y lo celestial.</p>
+                    </div>
+                </div>
+
+            </div>
+            </head>
+            <body>
+            <ul class="stacking context.">
+                <div class="image-container">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="imagen3.jpg" alt="Imagen Frontal">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2>Revelación Celestial</h2>
+                                <h3>Autora: Maria Belgrano</h3>
+                                <p>La imagen evoca una fusión entre la tecnología y las emociones humanas. Un individuo se sumerge en un dispositivo, simbolizando cómo la tecnología puede inundar nuestros sentidos, conectándonos a un caleidoscopio de experiencias visuales y auditivas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="imagen4.jpg" alt="Imagen Frontal">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2>Naturaleza Interna</h2>
+                                <h3>Autor: Miguel Ortiz</h3>
+                                <p>La obra es una representación artística que fusiona la forma humana con elementos de la naturaleza. Una cara dividida revela un interior exuberante, lleno de hojas verdes y flores, simbolizando una conexión íntima y orgánica con el mundo natural, la dualidad entre lo humano y lo natural se entrelaza en una expresión visual intrigante y simbólica. </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+</body>
+    </head>
+</html>

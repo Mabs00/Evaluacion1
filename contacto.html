@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<body style="background-color: #FFEFD3;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Galería</title>
+    <style>
+        /* Estilos CSS para la galería */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #90C3C8;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1F5673;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<header>
+    <h1>InspirArte</h1>
+    <p>¡Bienvenidos a nuestro hogar!</p>
+</header>
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="galeria.html">Galería</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+<body>
+<section class="contact-form">
+    <style>
+        body {
+            font-family: Roboto-BoldItalic;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 70px;
+            background-color: #759FBC;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(4, 2, 7, 2.1);
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        select {
+            height: 40px;
+        }
+        textarea {
+            height: 120px;
+        }
+        input[type="submit"] {
+            background-color: #006bff;
+            color: #ffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .contact-info {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-info p {
+            margin: 0;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Contáctanos</h1>
+        <form action="submit_form.php" method="post">
+            <label for="Name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="request-type">Tipo de Solicitud:</label>
+            <select id="request-type" name="request-type">
+                <option value="buy">Compra</option>
+                <option value="questions">Consulta</option>
+                <option value="Sale">Venta</option>
+            </select>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="contact-info">
+            <p>Información de contacto adicional:</p>
+            <p>Dirección: Calle falsa, 123</p>
+            <p>Teléfono: 600 410 3000</p>
+        </div>
+    </div>
+    </body>
+</html>
